@@ -36,20 +36,20 @@ const Footer = () => {
                     <div className="flex flex-col justify-between  md:h-56 w-full ">
                         <div className="flex items-start md:items-start justify-between sm:justify-center md:justify-between sm:gap-8 w-full mt-5 md:mt-0">
                             <span className='flex flex-col gap-3'>
-                                <H3 className='text-gray-5'>Home</H3>
-                                <H3 className=' text-gray-5'>About us</H3>
-                                <H3 className=' text-gray-5'>Work</H3>
+                                <H3 className='text-gray-5 cursor-pointer'>Home</H3>
+                                <H3 className=' text-gray-5 cursor-pointer'>About us</H3>
+                                <H3 className=' text-gray-5 cursor-pointer'>Work</H3>
                             </span>
                             <span className='flex flex-col gap-3'>
-                                <H3 className=' text-gray-5'>Services</H3>
-                                <H3 className=' text-gray-5'>Contact us</H3>
+                                <H3 className=' text-gray-5 cursor-pointer'>Services</H3>
+                                <H3 className=' text-gray-5 cursor-pointer'>Contact us</H3>
                             </span>
                         </div>
                         <H3 className=' text-gray-5 text-end hidden md:block'>OpenCore. All Rights Reserved</H3>
                     </div>
                     {/* BOTTOM */}
                     <div className="flex flex-col gap-1 justify-center items-center md:hidden pt-5 mt-5 w-full">
-                        <H3 className=' text-gray-5 '>Toronto, ON Canada</H3>   
+                        <H3 className=' text-gray-5 '>Toronto, ON Canada</H3>
                         <H3 className=' text-gray-5 '>OpenCore. All Rights Reserved</H3>
                     </div>
                 </div>
@@ -61,4 +61,4 @@ const Footer = () => {
     )
 }
 
-export default Footer 
+export default Footer

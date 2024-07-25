@@ -13,7 +13,7 @@ const Resources = () => {
           <Card
             key={resource.id}
             data={resource}
-            className={`${index < 3 ? 'md:mb-10' : 'hidden md:block'}`}
+            className={`${index < 3 ? 'md:mb-10' : 'hidden md:block'} cursor-pointer`}
           />
         ))}
       </div>
